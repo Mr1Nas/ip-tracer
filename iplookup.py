@@ -1,9 +1,8 @@
 import os 
+import platform
 import colorama
 import requests 
 import time
-import rainbowtext
-import platform
 plat = platform.uname()
 print(f"your system{plat}")
 plat0 = platform.uname()[0]
