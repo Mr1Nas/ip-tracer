@@ -39,8 +39,11 @@ while True:
     for i in colorama.Fore.RED+"The Source created By Mr1Nas\n":
         print(i,end='',flush=True)
         time.sleep(0.1)
+    for k in colorama.Fore.RED+"https://github.com/Mr1Nas/ip-tracer\n":
+        print(k,end='',flush=True)
+        time.sleep(0.01)
     print(colorama.Fore.GREEN+"1_lookup your ip\n")
-    print(colorama.Fore.GREEN+"2_lookup other ip and hostname\n")
+    print(colorama.Fore.GREEN+"2_lookup other ip or hostname\n")
     type = input("ENTER->")
     type = int(type)
     if type == 1:
