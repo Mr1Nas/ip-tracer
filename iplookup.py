@@ -20,6 +20,7 @@ else:
         print(i,end='',flush=True)
         time.sleep(0.1)
 os.system("cls")
+os.system("clear")
     
 while True:
     print(colorama.Fore.YELLOW+"""░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
